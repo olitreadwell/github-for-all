@@ -22,14 +22,17 @@ This short checklist helps participants prepare before the workshop so the live 
 - Codespaces: click the green Code button → "Open with Codespaces" → "New codespace" (if available). Codespaces opens a browser-based VS Code with Git built-in.
 - Web editor shortcut: press `.` on the repo page to open the in-browser editor if you prefer a multi-file web editor.
 
-5. Create a new Issue on this repo (important for the workshop)
+5. Create or upvote a Learning Goal issue (required for the workshop)
 
-- Go to the `Issues` tab in this repository: https://github.com/olitreadwell/github-for-all/issues
-- Click "New issue" and add:
-  - Title: Brief descriptive title (e.g. "Help: Codespace not available")
-  - Body: short description of the problem or question, your OS, browser, and steps you tried
-  - Optional: attach a screenshot
-- Submit the issue. This helps instructors triage problems and gives a real sample issue to discuss during the session.
+- Purpose: We use the `What I want to learn` template so learners can state goals and upvote others' requests. This helps the instructor prioritise topics.
+- View existing learning goals: https://github.com/olitreadwell/github-for-all/issues?q=is%3Aissue+label%3Alearning-goal
+- If you see a learning goal you want covered, upvote it by adding a 👍 reaction to the issue.
+- If you don't find something that matches your need, create a new learning goal issue:
+  1. Click "New issue" → pick the **What I want to learn** template.
+  2. Fill out the short form (one-line goal, why it matters, any constraints).
+  3. Submit the issue. Example title: `Learning goal: Understand pull requests for docs`.
+
+This step helps make the workshop responsive to the group's needs and gives instructors tangible priorities.
 
 6. Add the instructor as collaborator (optional for demo)
 
