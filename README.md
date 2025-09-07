@@ -34,95 +34,32 @@ By the end of this session participants will be able to:
 5. Tools & learning resources (5 min)
 	- VS Code, Copilot, Awesome lists, learning pathways
 6. Q&A and next steps (remaining time)
+# GitHub for All — Landing Page
 
-## Key topics & short notes
+Welcome to GitHub for All — a short workshop and resource hub that helps non-developers and early-stage teams learn Git, GitHub, and simple collaboration workflows.
 
-- Git vs GitHub: Git is the distributed version control system; GitHub is a cloud hosting platform with collaboration features built on Git.
+Quick links
 
-- Commits & history: commit messages are your team's record. Small, focused commits are easier to review and revert.
+- Lesson plan (how to teach/run the session): [LESSON_PLAN.md](./LESSON_PLAN.md)
+- Glossary (plain definitions + accessible analogies): [GLOSSARY.md](./GLOSSARY.md)
+- Mini exercise (pre-session setup steps): [MINI_EXERCISE.md](./MINI_EXERCISE.md)
+- Resources (curated links): [RESOURCES.md](./RESOURCES.md)
 
-- Branching model: use feature/topic branches for changes. Default branch (often `main`) holds stable content.
+Why this is useful
 
-- Pull Requests: the collaboration primitive for proposing, reviewing, and merging work. PRs are where discussion, review, and CI checks happen.
+- Helps founders and teams track changes, collaborate on docs, and use GitHub features without needing to be software engineers.
 
-- Conflicts: explain why they happen and how to resolve (rebase vs merge, quick demo or screenshot).
+How to use this repo
 
-## Analogies — simple metaphors to explain VCS, Git, and GitHub
+1. Complete `MINI_EXERCISE.md` before the workshop to ensure accounts and tools are ready.
+2. Follow `LESSON_PLAN.md` for a timed session, teaching techniques, and accessibility notes.
+3. Use `GLOSSARY.md` during the talk to explain terms with friendly analogies.
+4. Share `RESOURCES.md` for follow-up learning.
 
-Use these short analogies when explaining concepts to non-technical audiences; they're quick to remember and map well to how people already collaborate on documents.
+Contribute
 
-- Version Control System (VCS) — "Document save history": imagine a Word doc where every time you save there's a perfectly preserved copy labeled with who saved it and why. VCS keeps that history for your whole project and lets you go back to any saved copy.
+If you have improvements, open a PR with suggestions. Small, clear commits are appreciated.
 
-- Git — "Personal notebook with change snapshots": think of Git as a local notebook that records snapshots of your work (commits). You can make notes privately, create branches (different notebook sections) to try ideas, and merge the best parts back into the main section.
+License
 
-- Repository (repo) — "Project filing cabinet": a repo is like a folder or cabinet that holds all versions of your project, including its history and notes about who changed what.
-
-- Branch — "Draft copy or alternative version": a branch is like making a copy of the document to try an edit. The original stays unchanged until you merge your edits back.
-
-- Commit — "Save point with a sticky note": each commit is a save point plus a short note describing what changed, so teammates can understand the reason for that save.
-
-- Pull Request (PR) — "Suggested edits and conversation": a PR is like passing your draft to a colleague with a note that says "please review these edits" — they can comment, suggest changes, and eventually accept (merge) your edits into the main document.
-
-- Merge vs Rebase — "Combine edits vs rewrite history": merging is like adding your edited copy to the main document while keeping a record of both timelines; rebasing is like re-writing your edits so they look like they were made directly on top of the latest main document (neater history, but rewrites the past).
-
-- Remote / GitHub — "Shared cloud filing cabinet with collaboration features": GitHub is the online version of the filing cabinet where everyone can push their local snapshots, open PRs, run checks, and discuss changes. It adds issue tracking, access controls, and integrations.
-
-- Gist — "Sticky note you pin on the board": a quick public or private snippet you can share — great for single-file examples or short instructions.
-
-
-## Demo checklist (commands to show live)
-
-- git init
-- git status
-- git add README.md
-- git commit -m "Add workshop README"
-- git branch -M main
-- git remote add origin <repo-url>
-- git push -u origin main
-- git checkout -b feature/update-readme
-- (edit README) git add . && git commit -m "Update content"
-- git push origin feature/update-readme
-- Open GitHub → create Pull Request → merge
-
-Note: When demoing with the audience, use a small test repo or a temporary repository to avoid accidental changes to production code.
-
-## Useful links (curated)
-
-- GitHub Learning Pathways: https://resources.github.com/learn/pathways/ — guided learning paths for different goals.
-- GitHub Skills: https://skills.github.com/ — short, interactive exercises and workshops.
-- GitHub for Startups: https://github.com/enterprise/startups — programs and credits for eligible startups.
-- GitHub Student Developer Pack: https://education.github.com/pack/ — free tools and offers for students.
-- Awesome lists (curated lists of tools/resources): https://github.com/sindresorhus/awesome
-
-Helpful tooling
-
-- Visual Studio Code (VS Code): lightweight code editor with great Git and GitHub integration.
-- GitHub Copilot: AI assistant that suggests code and text completions (useful when writing templates, docs).
-- Gists: quick way to share code snippets or single-file notes: https://gist.github.com/
-
-## Suggested hands-on exercises (10–20 min)
-
-1. Pair participants and have them create a public repo for notes.
-2. Each pair creates a branch, edits README with a short introduction, commits, and pushes the branch.
-3. Open a Pull Request and request a review from the partner. Leave at least one comment and resolve it.
-4. Merge the PR and show the commit history and the “Blame” view for a line introduced earlier.
-
-## Speaker notes / tips
-
-- Keep language non-technical: compare Git commits to document “save points” and PRs to “suggested edits” on a shared doc.
-- Emphasize small wins: using Git/GitHub for documentation and simple change tracking is valuable even without writing code.
-- Have a backup recording of commands/screenshots in case live demo networking fails.
-- Encourage participants to sign up for GitHub Learning Pathways and Skills after the session.
-
-## Further reading and collections
-
-- Awesome lists: a one-stop index of curated lists for almost any technology area — great for finding recommended tooling and resources: https://github.com/sindresorhus/awesome
-- GitHub Docs: https://docs.github.com/ — authoritative docs for features and admin topics
-
-## License
-
-This README is provided for reuse and adaptation for workshops and talks. Treat it as CC BY (adapt and attribute as you like).
-
----
-
-If you want, I can convert this into a slide deck (slides in Markdown or PDF), add speaker notes per-slide, or create a small demo repository with scripted commands and sample PRs. Tell me which follow-up you'd like next.
+This content is provided for reuse and adaptation for workshops and talks. Treat it as CC BY (adapt and attribute as you like).
